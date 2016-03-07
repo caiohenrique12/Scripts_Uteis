@@ -1,4 +1,4 @@
-echo 'Instalando rvm com a versão do ruby mais estável'
+echo 'Instalando rvm com a versão do ruby mais instável'
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 sudo \curl -sSL https://get.rvm.io | bash
 source /home/chenrique/.rvm/scripts/rvm
@@ -11,7 +11,7 @@ else
    echo 'Falha na instalação do RVM'
 fi
 
-echo 'Instalando Ruby com a versão mais instalvél'
+echo 'Instalando Ruby com a versão mais instável'
 rvm install ruby-2.2.3
 versao_ruby = ruby --version
 
